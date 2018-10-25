@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BeatCoin
+Comment=BeatCoin P2P Cryptocurrency
+Comment[fr]=BeatCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BeatCoin, eşten eşe kriptografik sanal para birimi
+Exec=beatcoin-qt %u
+Terminal=false
+Type=Application
+Icon=beatcoin128
+MimeType=x-scheme-handler/beatcoin;
+Categories=Office;Finance;

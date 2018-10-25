@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/beatcoin_bg.qm</file>
+        <file alias="ca">locale/beatcoin_ca.qm</file>
+        <file alias="cs">locale/beatcoin_cs.qm</file>
+        <file alias="da">locale/beatcoin_da.qm</file>
+        <file alias="de">locale/beatcoin_de.qm</file>
+        <file alias="en">locale/beatcoin_en.qm</file>
+        <file alias="en_US">locale/beatcoin_en_US.qm</file>
+        <file alias="es">locale/beatcoin_es.qm</file>
+        <file alias="fi">locale/beatcoin_fi.qm</file>
+        <file alias="fr_FR">locale/beatcoin_fr_FR.qm</file>
+        <file alias="hr">locale/beatcoin_hr.qm</file>
+        <file alias="it">locale/beatcoin_it.qm</file>
+        <file alias="ja">locale/beatcoin_ja.qm</file>
+        <file alias="ko_KR">locale/beatcoin_ko_KR.qm</file>
+        <file alias="nl">locale/beatcoin_nl.qm</file>
+        <file alias="pl">locale/beatcoin_pl.qm</file>
+        <file alias="pt">locale/beatcoin_pt.qm</file>
+        <file alias="pt_BR">locale/beatcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/beatcoin_ro_RO.qm</file>
+        <file alias="ru">locale/beatcoin_ru.qm</file>
+        <file alias="sk">locale/beatcoin_sk.qm</file>
+        <file alias="sv">locale/beatcoin_sv.qm</file>
+        <file alias="tr">locale/beatcoin_tr.qm</file>
+        <file alias="uk">locale/beatcoin_uk.qm</file>
+        <file alias="zh_CN">locale/beatcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/beatcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

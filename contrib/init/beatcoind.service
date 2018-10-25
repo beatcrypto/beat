@@ -1,0 +1,26 @@
+[Unit]
+Description=BeatCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=beatcoin
+Group=beatcoin
+
+Type=forking
+PIDFile=/var/lib/beatcoind/beatcoind.pid
+
+ExecStart=/usr/bin/beatcoind -daemon -pid=/var/lib/beatcoind/beatcoind.pid \
+          -conf=/etc/beatcoin/beatcoin.conf -datadir=/var/lib/beatcoind
+
+ExecStop=-/usr/bin/beatcoin-cli -conf=/etc/beatcoin/beatcoin.conf \
+         -datadir=/var/lib/beatcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
